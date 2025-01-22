@@ -4,4 +4,4 @@ from ultralytics import YOLO
 model = YOLO("yolo11n.pt")
 
 # Train the model
-results = model.train(data="/kaggle/working/overfit-yolo-test/data.yml",epochs=1000, imgsz=640)
+results = model.train(data="/kaggle/working/overfit-yolo-test/data.yaml",epochs=1000, imgsz=640)
